@@ -12,6 +12,7 @@ const sequelize = new Sequelize(db_name, db_username, password, {
   define: {
     timestamps: true,
   },
+  logging: false,
   sync: {
     alter: true,
   },
